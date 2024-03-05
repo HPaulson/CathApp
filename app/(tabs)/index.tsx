@@ -11,7 +11,7 @@ export default function TabOneScreen() {
   );
   const [loading, setLoading] = useState(true);
 
-  const localDate = new Date("2024-06-23");
+  const localDate = new Date();
   const dateString = `${localDate.getFullYear()}/${
     localDate.getMonth() + 1
   }/${localDate.getDate()}`;
@@ -25,7 +25,6 @@ export default function TabOneScreen() {
       .catch((error) => console.error(error))
       .finally(() => setLoading(false));
   }, []);
-  console.log(liturgicalDay);
 
   if (liturgicalDay)
     return (
