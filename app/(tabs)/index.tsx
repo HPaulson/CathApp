@@ -1,14 +1,18 @@
-import { StyleSheet } from "react-native";
+import { ScrollView, StyleSheet, Image } from "react-native";
 
 import { SeasonGradient, Text, Title, View } from "@/components/Themed";
 import { Calendar } from "@/utils/date";
 import React, { useEffect, useState } from "react";
 import { LiturgicalDay } from "@/types/CalendarAPI";
+import * as rssParser from "react-native-rss-parser";
+import RenderRSS from "@/components/renderRSS";
+import DayIcon from "@/components/icon";
 
 export default function TabOneScreen() {
   const [liturgicalDay, setLiturgicalDay] = useState<LiturgicalDay | null>(
     null
   );
+  const [rssFeed, setRssFeed] = useState<any>(null); // [rssFeed, setRssFeed
   const [loading, setLoading] = useState(true);
 
   const localDate = new Date();
@@ -26,7 +30,15 @@ export default function TabOneScreen() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (liturgicalDay)
+  useEffect(() => {
+    fetch("https://www.usccb.org/bible/readings/rss/index.cfm")
+      .then((response) => response.text())
+      .then((responseData) => rssParser.parse(responseData))
+      .then((rss) => {
+        setRssFeed(rss);
+      });
+  });
+  if (liturgicalDay && !loading && rssFeed)
     return (
       <View style={styles.container}>
         <SeasonGradient
@@ -36,8 +48,8 @@ export default function TabOneScreen() {
           <Text style={{ fontSize: 17 }}>
             {Calendar.DayTitle(liturgicalDay.season_week, liturgicalDay.season)}
           </Text>
+          <DayIcon liturgicalDay={liturgicalDay} />
         </SeasonGradient>
-
         <View style={styles.separator} />
         <View style={{ justifyContent: "center" }}>
           {liturgicalDay.celebrations.map((celebration, index) => {
@@ -68,6 +80,20 @@ export default function TabOneScreen() {
               );
           })}
         </View>
+        <View
+          style={styles.separator}
+          lightColor="rgba(0,0,0,0.3)"
+          darkColor="rgba(255,255,255,0.3)"
+        />
+        <ScrollView
+          style={{
+            width: "100%",
+            alignContent: "center",
+            paddingHorizontal: 10,
+          }}
+        >
+          <RenderRSS htmlString={rssFeed.items[0].description} />
+        </ScrollView>
       </View>
     );
 }
@@ -82,6 +108,6 @@ const styles = StyleSheet.create({
   separator: {
     marginVertical: 10,
     height: 1,
-    width: "80%",
+    width: "100%",
   },
 });

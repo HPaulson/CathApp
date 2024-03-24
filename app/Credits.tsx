@@ -11,8 +11,8 @@ export default function ModalScreen() {
       <Text>Dominus Vobiscum.</Text>
       <View
         style={styles.separator}
-        lightColor="#eee"
-        darkColor="rgba(255,255,255,0.1)"
+        lightColor="rgba(0,0,0,0.3)"
+        darkColor="rgba(255,255,255,0.3)"
       />
       <Text>
         Developed by{" "}

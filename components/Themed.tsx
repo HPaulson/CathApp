@@ -50,10 +50,7 @@ export function Title(props: TextProps) {
 
   return (
     <DefaultText
-      style={[
-        { color, fontSize: 25, fontWeight: "bold"},
-        style,
-      ]}
+      style={[{ color, fontSize: 25, fontWeight: "bold" }, style]}
       {...otherProps}
     />
   );
@@ -76,8 +73,6 @@ export function SeasonGradient(props: ViewProps) {
       colors={[lightColor || "", lightColor || ""]}
       style={[
         {
-          alignItems: "center",
-          justifyContent: "center",
           borderRadius: 10,
           height: 150,
           width: "100%",
@@ -85,7 +80,18 @@ export function SeasonGradient(props: ViewProps) {
         props.style,
       ]}
     >
-      {props.children}
+      <View
+        style={{
+          flex: 1,
+          margin: 15,
+          alignItems: "center",
+          justifyContent: "center",
+          flexGrow: 1,
+          backgroundColor: "rgba(0,0,0,0)",
+        }}
+      >
+        {props.children}
+      </View>
     </LinearGradient>
   );
 }
