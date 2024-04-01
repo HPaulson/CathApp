@@ -1,0 +1,64 @@
+import { LiturgicalDay } from "@/types/CalendarAPI";
+
+export const Data_2024: LiturgicalDay[] =  [
+  {
+    "date": "2024-03-02",
+    "season": "Lent",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": "of the Second week of Lent"
+      }
+    ],
+    "weekday": "Saturday"
+  },
+  {
+    "date": "2024-02-02",
+    "season": "Ordinary",
+    "season_week": 4,
+    "celebrations": [
+      {
+        "title": "Feast",
+        "colour": "white",
+        "rank": "feast",
+        "rank_num": 2.5,
+        "subtitle": "of Presentation of the Lord"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2024-05-02",
+    "season": "Easter",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Athanasius, bishop and doctor"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2024-11-02",
+    "season": "Ordinary",
+    "season_week": 30,
+    "celebrations": [
+      {
+        "title": "Solemnity",
+        "colour": "white",
+        "rank": "solemnity",
+        "rank_num": 1.3,
+        "subtitle": "of All Souls"
+      }
+    ],
+    "weekday": "Saturday"
+  }
+]

@@ -1,12 +1,12 @@
 import { LiturgicalDay } from "@/types/CalendarAPI";
 
 export class Calendar {
-  static today() {
+  static formatDate(date: Date) {
     return new Intl.DateTimeFormat("en-US", {
       year: "numeric",
       month: "long",
       day: "numeric",
-    }).format(new Date());
+    }).format(date);
   }
 
   static formatLiturgicalDay(data: LiturgicalDay) {

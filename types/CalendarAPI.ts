@@ -4,7 +4,7 @@
 
 // Write the type
 export type LiturgicalDay = {
-  date: Date;
+  date: string; // "yyyy-mm-dd"
   season: string;
   season_week: number;
   celebrations: Celebration[];
@@ -12,8 +12,9 @@ export type LiturgicalDay = {
 };
 
 type Celebration = {
-    title: string;
-    colour: string;
-    rank: string;
-    rank_num: number;
-}
+  title: string;
+  subtitle: string;
+  colour: string;
+  rank: string;
+  rank_num: number;
+};

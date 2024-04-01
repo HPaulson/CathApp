@@ -7,9 +7,15 @@ import Colors from "@/constants/Colors";
 import { useColorScheme } from "@/components/useColorScheme";
 import { useClientOnlyValue } from "@/components/useClientOnlyValue";
 import { Calendar } from "@/utils/date";
+import DateTimePicker, {
+  DateTimePickerEvent,
+} from "@react-native-community/datetimepicker";
+import RNDateTimePicker from "@react-native-community/datetimepicker";
+import { useDate } from "@/state/date";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
+  const [date, setDate] = useDate();
 
   return (
     <Tabs
@@ -23,9 +29,20 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: Calendar.today(),
+          title: Calendar.formatDate(date),
           tabBarStyle: {
             display: "none",
+          },
+          headerTitle: () => {
+            return (
+              <RNDateTimePicker
+                value={date}
+                dateFormat="longdate"
+                onChange={(event: DateTimePickerEvent, date?: Date) => {
+                  if (date) setDate(date);
+                }}
+              />
+            );
           },
           headerRight: () => (
             <Link href="/Credits" asChild>
@@ -41,15 +58,6 @@ export default function TabLayout() {
               </Pressable>
             </Link>
           ),
-        }}
-      />
-      <Tabs.Screen
-        name="two"
-        options={{
-          tabBarStyle: {
-            display: "none",
-          },
-          title: "Tab Two",
         }}
       />
     </Tabs>

@@ -7,61 +7,100 @@ import { LiturgicalDay } from "@/types/CalendarAPI";
 import * as rssParser from "react-native-rss-parser";
 import RenderRSS from "@/components/renderRSS";
 import DayIcon from "@/components/icon";
+import { Data_2024 } from "@/data/2024-backup";
+import { useDate } from "@/state/date";
 
 export default function TabOneScreen() {
   const [liturgicalDay, setLiturgicalDay] = useState<LiturgicalDay | null>(
     null
   );
-  const [rssFeed, setRssFeed] = useState<any>(null); // [rssFeed, setRssFeed
+  const [rssFeed, setRssFeed] = useState<any>(null);
+  const [rssData, setRssData] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
-  const localDate = new Date();
-  const dateString = `${localDate.getFullYear()}/${
-    localDate.getMonth() + 1
-  }/${localDate.getDate()}`;
+  const [date, setDate] = useDate();
+  const dateString =
+    date.getFullYear() +
+    "-" +
+    (date.getMonth() + 1).toString().padStart(2, "0") +
+    "-" +
+    date.getDate().toString().padStart(2, "0");
 
   useEffect(() => {
-    fetch(
-      `http://calapi.inadiutorium.cz/api/v0/en/calendars/default/${dateString}`
-    )
-      .then((resp) => resp.json())
-      .then((json) => setLiturgicalDay(Calendar.formatLiturgicalDay(json)))
-      .catch((error) => console.error(error))
-      .finally(() => setLoading(false));
-  }, []);
+    const ranks = new Set();
+    Data_2024.map((d) => ranks.add(d.celebrations[0].rank));
+    console.log(ranks);
+
+    let day = Data_2024.find((day: any) => day.date === dateString);
+    if (day) {
+      setLiturgicalDay(day as LiturgicalDay);
+      setLoading(false);
+    }
+  }, [Data_2024, dateString]);
 
   useEffect(() => {
-    fetch("https://www.usccb.org/bible/readings/rss/index.cfm")
-      .then((response) => response.text())
-      .then((responseData) => rssParser.parse(responseData))
-      .then((rss) => {
-        setRssFeed(rss);
+    if (!rssFeed) {
+      fetch("https://www.usccb.org/bible/readings/rss/index.cfm")
+        .then((response) => response.text())
+        .then((responseData) => rssParser.parse(responseData))
+        .then((rss) => {
+          setRssFeed(rss);
+        })
+        .catch((error) => console.error(error));
+    }
+  }, [rssFeed]);
+
+  useEffect(() => {
+    console.log("Updating rss");
+    if (rssFeed) {
+      let item = rssFeed.items.find((item: any) => {
+        console.log(
+          Calendar.formatDate(new Date(item.published)),
+          Calendar.formatDate(date)
+        );
+
+        return (
+          Calendar.formatDate(new Date(item.published)) ===
+          Calendar.formatDate(date)
+        );
       });
-  });
-  if (liturgicalDay && !loading && rssFeed)
+      if (item) setRssData(item.description);
+      else setRssData(null);
+    }
+  }, [rssFeed, dateString]);
+
+  if (liturgicalDay && !loading)
     return (
       <View style={styles.container}>
         <SeasonGradient
           lightColor={Calendar.parseColor(liturgicalDay.celebrations[0].colour)}
         >
-          <Title>{liturgicalDay.weekday}</Title>
-          <Text style={{ fontSize: 17 }}>
-            {Calendar.DayTitle(liturgicalDay.season_week, liturgicalDay.season)}
-          </Text>
+          <Title>{liturgicalDay.celebrations[0].title}</Title>
+          {liturgicalDay.celebrations[0].subtitle ? (
+            <Text
+              style={{
+                fontSize: 17,
+              }}
+            >
+              {liturgicalDay.celebrations[0].subtitle}
+            </Text>
+          ) : null}
           <DayIcon liturgicalDay={liturgicalDay} />
         </SeasonGradient>
         <View style={styles.separator} />
         <View style={{ justifyContent: "center" }}>
           {liturgicalDay.celebrations.map((celebration, index) => {
-            if (celebration.rank != "Ferial")
+            if (index != 0)
               return (
                 <View
+                  key={index}
                   style={{
                     flexDirection: "row",
                     marginVertical: 10,
                   }}
                 >
                   <SeasonGradient
+                    key={index}
                     style={{
                       height: 40,
                       width: 40,
@@ -71,9 +110,9 @@ export default function TabOneScreen() {
                     lightColor={Calendar.parseColor(celebration.colour)}
                   />
                   <View style={{ width: "80%" }}>
-                    <Title style={{ fontSize: 20 }}>{celebration.rank}</Title>
+                    <Title style={{ fontSize: 20 }}>{celebration.title}</Title>
                     <Text style={{ width: "auto", fontSize: 15 }}>
-                      of {celebration.title.replace("The Memorial Of ", "")}
+                      {celebration.subtitle}
                     </Text>
                   </View>
                 </View>
@@ -92,7 +131,11 @@ export default function TabOneScreen() {
             paddingHorizontal: 10,
           }}
         >
-          <RenderRSS htmlString={rssFeed.items[0].description} />
+          {rssData ? (
+            <RenderRSS htmlString={rssData} />
+          ) : (
+            <Text>Readings not available yet.</Text>
+          )}
         </ScrollView>
       </View>
     );
@@ -104,6 +147,8 @@ const styles = StyleSheet.create({
     padding: 10,
     alignItems: "center",
     flexGrow: 1,
+    justifyContent: "center",
+    alignContent: "center",
   },
   separator: {
     marginVertical: 10,
