@@ -17,7 +17,7 @@ export {
 } from "expo-router";
 
 export const unstable_settings = {
-  initialRouteName: "(tabs)",
+  initialRouteName: "Home",
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -53,8 +53,9 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="Credits" options={{ presentation: "modal" }} />
+        <Stack.Screen name="Home" options={{ headerShown: false }} />
+        <Stack.Screen name="Settings" />
+        <Stack.Screen name="Credits" />
       </Stack>
     </ThemeProvider>
   );

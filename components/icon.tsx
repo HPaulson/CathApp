@@ -50,21 +50,6 @@ export default function DayIcon(props: { liturgicalDay: LiturgicalDay }) {
         );
       }
       break;
-    case "Thursday Of Holy Week":
-      if (!icon) {
-        icon = (
-          <Image
-            style={{
-              width: 50,
-              height: 50,
-              alignSelf: "flex-end",
-              position: "absolute",
-            }}
-            source={require("@/assets/images/eucharist.png")}
-          />
-        );
-      }
-      break;
   }
   switch (liturgicalDay.season) {
     case "Lent":
