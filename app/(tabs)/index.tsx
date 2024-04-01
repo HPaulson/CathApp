@@ -7,8 +7,8 @@ import { LiturgicalDay } from "@/types/CalendarAPI";
 import * as rssParser from "react-native-rss-parser";
 import RenderRSS from "@/components/renderRSS";
 import DayIcon from "@/components/icon";
-import { Data_2024 } from "@/data/2024-backup";
 import { useDate } from "@/state/date";
+import { DarkTheme } from "@react-navigation/native";
 
 export default function TabOneScreen() {
   const [liturgicalDay, setLiturgicalDay] = useState<LiturgicalDay | null>(
@@ -19,24 +19,19 @@ export default function TabOneScreen() {
   const [loading, setLoading] = useState(true);
 
   const [date, setDate] = useDate();
-  const dateString =
-    date.getFullYear() +
-    "-" +
-    (date.getMonth() + 1).toString().padStart(2, "0") +
-    "-" +
-    date.getDate().toString().padStart(2, "0");
 
   useEffect(() => {
-    const ranks = new Set();
-    Data_2024.map((d) => ranks.add(d.celebrations[0].rank));
-    console.log(ranks);
-
-    let day = Data_2024.find((day: any) => day.date === dateString);
-    if (day) {
-      setLiturgicalDay(day as LiturgicalDay);
-      setLoading(false);
+    if (date) {
+      const data = Calendar.getData(date);
+      if (data) {
+        setLiturgicalDay(data);
+        setLoading(false);
+      } else {
+        setLiturgicalDay(null);
+        setLoading(false);
+      }
     }
-  }, [Data_2024, dateString]);
+  }, [date]);
 
   useEffect(() => {
     if (!rssFeed) {
@@ -51,14 +46,8 @@ export default function TabOneScreen() {
   }, [rssFeed]);
 
   useEffect(() => {
-    console.log("Updating rss");
     if (rssFeed) {
       let item = rssFeed.items.find((item: any) => {
-        console.log(
-          Calendar.formatDate(new Date(item.published)),
-          Calendar.formatDate(date)
-        );
-
         return (
           Calendar.formatDate(new Date(item.published)) ===
           Calendar.formatDate(date)
@@ -67,7 +56,7 @@ export default function TabOneScreen() {
       if (item) setRssData(item.description);
       else setRssData(null);
     }
-  }, [rssFeed, dateString]);
+  }, [rssFeed, date]);
 
   if (liturgicalDay && !loading)
     return (
@@ -75,10 +64,17 @@ export default function TabOneScreen() {
         <SeasonGradient
           lightColor={Calendar.parseColor(liturgicalDay.celebrations[0].colour)}
         >
-          <Title>{liturgicalDay.celebrations[0].title}</Title>
+          <Title
+            style={{
+              color: DarkTheme ? "black" : "white",
+            }}
+          >
+            {liturgicalDay.celebrations[0].title}
+          </Title>
           {liturgicalDay.celebrations[0].subtitle ? (
             <Text
               style={{
+                color: DarkTheme ? "black" : "white",
                 fontSize: 17,
               }}
             >
@@ -137,6 +133,12 @@ export default function TabOneScreen() {
             <Text>Readings not available yet.</Text>
           )}
         </ScrollView>
+      </View>
+    );
+  else
+    return (
+      <View style={styles.container}>
+        <Text>No data found for this date!</Text>
       </View>
     );
 }

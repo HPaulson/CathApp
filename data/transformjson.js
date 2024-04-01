@@ -104,6 +104,8 @@ function transformEvent(event) {
       case "feast":
       case "memorial":
       case "optional memorial":
+      case "commemoration":
+        replacedTitle.replace("The Memorial of the", "The");
         transformed.title =
           celebration.rank.charAt(0).toUpperCase() + celebration.rank.slice(1);
         transformed.subtitle = "of " + replacedTitle;
@@ -125,6 +127,8 @@ function transformEvent(event) {
           transformed.title =
             event.weekday.charAt(0).toUpperCase() + event.weekday.slice(1);
           transformed.subtitle = "of " + removeWeekday(replacedTitle);
+        } else {
+          transformed.title = replacedTitle;
         }
         break;
       case "Primary liturgical days":
@@ -152,12 +156,10 @@ function transformEvent(event) {
 
 function getMonthData(month, year) {
   return new Promise((resolve, reject) => {
-    fetch(
-      `http://calapi.inadiutorium.cz/api/v0/en/calendars/default/${year}/${month}`
-    )
+    // Local instance of https://github.com/igneus/church-calendar-api
+    fetch(`http://0.0.0.0:9292/api/v0/en/calendars/default/${year}/${month}`)
       .then((response) => response.json())
       .then((data) => {
-        console.log("Success");
         return resolve(data);
       })
       .catch((error) => {
@@ -166,23 +168,25 @@ function getMonthData(month, year) {
   });
 }
 
-function getData(startDate, endDate, litYear) {
+function getData(startDate, endDate) {
   return new Promise((resolve, reject) => {
     let date = new Date(startDate);
     const monthsBetweenDates = [];
     while (date < endDate) {
       monthsBetweenDates.push(
-        [date.getFullYear(), date.getMonth() + 1].join("-")
+        [date.getUTCFullYear(), date.getUTCMonth() + 1].join("-")
       );
       date.setMonth(date.getMonth() + 1);
     }
+
+    console.log(monthsBetweenDates);
 
     const monthData = [];
     for (const [i, month] of monthsBetweenDates.entries()) {
       const [y, m] = month.split("-");
       getMonthData(m, y).then((data) => {
         if (i === 0) {
-          data = data.filter((day) => day.day >= startDate.getDate());
+          data = data.filter((day) => new Date(day.date) >= startDate);
         }
 
         monthData.push({ month: m, data: data });
@@ -194,7 +198,7 @@ function getData(startDate, endDate, litYear) {
   });
 }
 
-function transform(inputData, file) {
+function transform(inputData, year) {
   // Flatten events into a single array
   const transformedData = [];
   inputData = inputData
@@ -205,32 +209,22 @@ function transform(inputData, file) {
   for (const day in inputData) {
     transformedData.push(transformEvent(inputData[day]));
   }
-  console.log("Writing File");
   // Write the transformed data to a new JSON file
   fs.writeFileSync(
-    file,
+    `${year}.ts`,
     `import { LiturgicalDay } from "@/types/CalendarAPI";
 
-export const Data_2024: LiturgicalDay[] =  ${JSON.stringify(transformedData, null, 2)}`
+export const Data_${year}: LiturgicalDay[] =  ${JSON.stringify(transformedData, null, 2)}`
   );
 }
 
 function main() {
-  const litYear = process.argv[2];
+  const year = process.argv[2];
   const startDate = new Date(process.argv[3]);
   const endDate = new Date(process.argv[4]);
 
-  if (startDate && endDate) {
-    const diffTime = Math.abs(endDate - startDate);
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    if (diffDays > 365) {
-      console.log("The date range must be within 365 days");
-      process.exit(1);
-    }
-  }
-
-  getData(startDate, endDate, litYear).then((data) => {
-    transform(data, `${litYear}.ts`);
+  getData(startDate, endDate, year).then((data) => {
+    transform(data, year);
   });
 }
 

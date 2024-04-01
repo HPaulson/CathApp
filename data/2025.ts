@@ -1,8 +1,8 @@
 import { LiturgicalDay } from "@/types/CalendarAPI";
 
-export const Data_2024: LiturgicalDay[] =  [
+export const Data_2025: LiturgicalDay[] =  [
   {
-    "date": "2024-01-01",
+    "date": "2025-01-01",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -14,10 +14,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Mary, Mother of God (Octave of Christmas)"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-01-02",
+    "date": "2025-01-02",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -29,47 +29,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Basil the Great and Gregory Nazianzen, bishops and doctors"
       }
     ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-01-03",
-    "season": "Christmas",
-    "season_week": 1,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of Wednesday after Christmas Octave"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Most Holy Name of Jesus"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-01-04",
-    "season": "Christmas",
-    "season_week": 1,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of Thursday after Christmas Octave"
-      }
-    ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-01-05",
+    "date": "2025-01-03",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -79,14 +42,51 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of Friday after Christmas Octave"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Most Holy Name of Jesus"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-01-06",
+    "date": "2025-01-04",
     "season": "Christmas",
     "season_week": 1,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Saturday after Christmas Octave"
+      }
+    ],
+    "weekday": "Saturday"
+  },
+  {
+    "date": "2025-01-05",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Sunday",
+        "colour": "white",
+        "rank": "Sunday",
+        "rank_num": 2.6,
+        "subtitle": "of the Second Week after the Nativity of the Lord"
+      }
+    ],
+    "weekday": "Sunday"
+  },
+  {
+    "date": "2025-01-06",
+    "season": "Christmas",
+    "season_week": 2,
     "celebrations": [
       {
         "title": "The Epiphany",
@@ -96,12 +96,94 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-01-07",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Tuesday after Epiphany"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Raymond of Penyafort, priest"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-01-08",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Wednesday after Epiphany"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-01-09",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Thursday after Epiphany"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-01-10",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Friday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Friday after Epiphany"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-01-11",
+    "season": "Christmas",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of Saturday after Epiphany"
+      }
+    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-01-07",
+    "date": "2025-01-12",
     "season": "Christmas",
-    "season_week": 2,
+    "season_week": 3,
     "celebrations": [
       {
         "title": "Feast",
@@ -114,7 +196,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-01-08",
+    "date": "2025-01-13",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
@@ -124,12 +206,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the First week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Hilary of Poitiers, bishop and doctor"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-01-09",
+    "date": "2025-01-14",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
@@ -144,7 +233,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-01-10",
+    "date": "2025-01-15",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
@@ -159,7 +248,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-01-11",
+    "date": "2025-01-16",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
@@ -174,22 +263,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-01-12",
+    "date": "2025-01-17",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
       {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the First week in Ordinary Time"
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Anthony of Egypt, abbot"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-01-13",
+    "date": "2025-01-18",
     "season": "Ordinary",
     "season_week": 1,
     "celebrations": [
@@ -205,20 +294,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Hilary of Poitiers, bishop and doctor"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
         "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-01-14",
+    "date": "2025-01-19",
     "season": "Ordinary",
     "season_week": 2,
     "celebrations": [
@@ -233,87 +315,12 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-01-15",
+    "date": "2025-01-20",
     "season": "Ordinary",
     "season_week": 2,
     "celebrations": [
       {
         "title": "Monday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week in Ordinary Time"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-01-16",
-    "season": "Ordinary",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week in Ordinary Time"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-01-17",
-    "season": "Ordinary",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Anthony of Egypt, abbot"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-01-18",
-    "season": "Ordinary",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week in Ordinary Time"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-01-19",
-    "season": "Ordinary",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week in Ordinary Time"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-01-20",
-    "season": "Ordinary",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -332,19 +339,94 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Sebastian, martyr"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-01-21",
+    "season": "Ordinary",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "red",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Agnes, virgin and martyr"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-01-22",
+    "season": "Ordinary",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Second week in Ordinary Time"
       },
       {
         "title": "Optional memorial",
-        "colour": "white",
+        "colour": "red",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
+        "subtitle": "of Saint Vincent, deacon and martyr"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-01-23",
+    "season": "Ordinary",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Second week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-01-24",
+    "season": "Ordinary",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Francis de Sales, bishop and doctor"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-01-25",
+    "season": "Ordinary",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Feast",
+        "colour": "white",
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of The Conversion of Saint Paul, apostle"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-01-21",
+    "date": "2025-01-26",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
@@ -359,7 +441,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-01-22",
+    "date": "2025-01-27",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
@@ -372,61 +454,61 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "red",
+        "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Vincent, deacon and martyr"
+        "subtitle": "of Saint Angela Merici, virgin"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-01-23",
+    "date": "2025-01-28",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Thomas Aquinas, priest and doctor"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-01-29",
+    "season": "Ordinary",
+    "season_week": 3,
+    "celebrations": [
+      {
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Third week in Ordinary Time"
       }
     ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-01-24",
-    "season": "Ordinary",
-    "season_week": 3,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Francis de Sales, bishop and doctor"
-      }
-    ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-01-25",
+    "date": "2025-01-30",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
       {
-        "title": "Feast",
-        "colour": "white",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of The Conversion of Saint Paul, apostle"
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Third week in Ordinary Time"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-01-26",
+    "date": "2025-01-31",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
@@ -435,13 +517,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "memorial",
         "rank_num": 3.1,
-        "subtitle": "of Saints Timothy and Titus, bishops"
+        "subtitle": "of Saint John Bosco, priest"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-01-27",
+    "date": "2025-02-01",
     "season": "Ordinary",
     "season_week": 3,
     "celebrations": [
@@ -451,13 +533,6 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Third week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Angela Merici, virgin"
       },
       {
         "title": "Optional memorial",
@@ -470,82 +545,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-01-28",
-    "season": "Ordinary",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Fourth Week in Ordinary Time"
-      }
-    ],
-    "weekday": "Sunday"
-  },
-  {
-    "date": "2024-01-29",
-    "season": "Ordinary",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Monday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fourth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-01-30",
-    "season": "Ordinary",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fourth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-01-31",
-    "season": "Ordinary",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint John Bosco, priest"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-02-01",
-    "season": "Ordinary",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fourth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-02-02",
+    "date": "2025-02-02",
     "season": "Ordinary",
     "season_week": 4,
     "celebrations": [
@@ -557,15 +557,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Presentation of the Lord"
       }
     ],
-    "weekday": "Friday"
+    "weekday": "Sunday"
   },
   {
-    "date": "2024-02-03",
+    "date": "2025-02-03",
     "season": "Ordinary",
     "season_week": 4,
     "celebrations": [
       {
-        "title": "Saturday",
+        "title": "Monday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -584,36 +584,29 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Ansgar, bishop"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
-    "weekday": "Saturday"
+    "weekday": "Monday"
   },
   {
-    "date": "2024-02-04",
+    "date": "2025-02-04",
     "season": "Ordinary",
-    "season_week": 5,
+    "season_week": 4,
     "celebrations": [
       {
-        "title": "Sunday",
+        "title": "Tuesday",
         "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Fifth Week in Ordinary Time"
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fourth week in Ordinary Time"
       }
     ],
-    "weekday": "Sunday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-02-05",
+    "date": "2025-02-05",
     "season": "Ordinary",
-    "season_week": 5,
+    "season_week": 4,
     "celebrations": [
       {
         "title": "Memorial",
@@ -623,12 +616,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Agatha, virgin and martyr"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-02-06",
+    "date": "2025-02-06",
     "season": "Ordinary",
-    "season_week": 5,
+    "season_week": 4,
     "celebrations": [
       {
         "title": "Memorial",
@@ -638,34 +631,34 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Paul Miki and companions, martyrs"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-02-07",
+    "date": "2025-02-07",
     "season": "Ordinary",
-    "season_week": 5,
+    "season_week": 4,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Fifth week in Ordinary Time"
+        "subtitle": "of the Fourth week in Ordinary Time"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-02-08",
+    "date": "2025-02-08",
     "season": "Ordinary",
-    "season_week": 5,
+    "season_week": 4,
     "celebrations": [
       {
-        "title": "Thursday",
+        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Fifth week in Ordinary Time"
+        "subtitle": "of the Fourth week in Ordinary Time"
       },
       {
         "title": "Optional memorial",
@@ -680,27 +673,34 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Josephine Bakhita, virgin"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Saturday"
   },
   {
-    "date": "2024-02-09",
+    "date": "2025-02-09",
     "season": "Ordinary",
     "season_week": 5,
     "celebrations": [
       {
-        "title": "Friday",
+        "title": "Sunday",
         "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fifth week in Ordinary Time"
+        "rank": "Sunday",
+        "rank_num": 2.6,
+        "subtitle": "of the Fifth Week in Ordinary Time"
       }
     ],
-    "weekday": "Friday"
+    "weekday": "Sunday"
   },
   {
-    "date": "2024-02-10",
+    "date": "2025-02-10",
     "season": "Ordinary",
     "season_week": 5,
     "celebrations": [
@@ -712,10 +712,99 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Scholastica, virgin"
       }
     ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-02-11",
+    "season": "Ordinary",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Our Lady of Lourdes"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-02-12",
+    "season": "Ordinary",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-02-13",
+    "season": "Ordinary",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-02-14",
+    "season": "Ordinary",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saints Cyril, monk, and Methodius, bishop"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-02-15",
+    "season": "Ordinary",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
+      }
+    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-02-11",
+    "date": "2025-02-16",
     "season": "Ordinary",
     "season_week": 6,
     "celebrations": [
@@ -730,7 +819,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-02-12",
+    "date": "2025-02-17",
     "season": "Ordinary",
     "season_week": 6,
     "celebrations": [
@@ -740,12 +829,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Sixth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Seven Holy Founders of the Servite Order"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-02-13",
+    "date": "2025-02-18",
     "season": "Ordinary",
     "season_week": 6,
     "celebrations": [
@@ -760,7 +856,245 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-02-14",
+    "date": "2025-02-19",
+    "season": "Ordinary",
+    "season_week": 6,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Sixth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-02-20",
+    "season": "Ordinary",
+    "season_week": 6,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Sixth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-02-21",
+    "season": "Ordinary",
+    "season_week": 6,
+    "celebrations": [
+      {
+        "title": "Friday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Sixth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Peter Damian, bishop and doctor of the Church"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-02-22",
+    "season": "Ordinary",
+    "season_week": 6,
+    "celebrations": [
+      {
+        "title": "Feast",
+        "colour": "white",
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of Chair of Saint Peter, apostle"
+      }
+    ],
+    "weekday": "Saturday"
+  },
+  {
+    "date": "2025-02-23",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Sunday",
+        "colour": "green",
+        "rank": "Sunday",
+        "rank_num": 2.6,
+        "subtitle": "of the Seventh Week in Ordinary Time"
+      }
+    ],
+    "weekday": "Sunday"
+  },
+  {
+    "date": "2025-02-24",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-02-25",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-02-26",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-02-27",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Gregory of Narek, abbot and doctor of the Church"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-02-28",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Friday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-03-01",
+    "season": "Ordinary",
+    "season_week": 7,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventh week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
+      }
+    ],
+    "weekday": "Saturday"
+  },
+  {
+    "date": "2025-03-02",
+    "season": "Ordinary",
+    "season_week": 8,
+    "celebrations": [
+      {
+        "title": "Sunday",
+        "colour": "green",
+        "rank": "Sunday",
+        "rank_num": 2.6,
+        "subtitle": "of the Eighth Week in Ordinary Time"
+      }
+    ],
+    "weekday": "Sunday"
+  },
+  {
+    "date": "2025-03-03",
+    "season": "Ordinary",
+    "season_week": 8,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Eighth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-03-04",
+    "season": "Ordinary",
+    "season_week": 8,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Eighth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Casimir"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-03-05",
     "season": "Lent",
     "season_week": 0,
     "celebrations": [
@@ -775,7 +1109,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-02-15",
+    "date": "2025-03-06",
     "season": "Lent",
     "season_week": 0,
     "celebrations": [
@@ -790,7 +1124,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-02-16",
+    "date": "2025-03-07",
     "season": "Lent",
     "season_week": 0,
     "celebrations": [
@@ -800,12 +1134,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of Friday after Ash Wednesday"
+      },
+      {
+        "title": "Commemoration",
+        "colour": "violet",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saints Perpetua and Felicity, martyrs"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-02-17",
+    "date": "2025-03-08",
     "season": "Lent",
     "season_week": 0,
     "celebrations": [
@@ -821,13 +1162,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "violet",
         "rank": "commemoration",
         "rank_num": 4,
-        "subtitle": "of Seven Holy Founders of the Servite Order"
+        "subtitle": "of Saint John of God, religious"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-02-18",
+    "date": "2025-03-09",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -842,7 +1183,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-02-19",
+    "date": "2025-03-10",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -857,7 +1198,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-02-20",
+    "date": "2025-03-11",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -872,7 +1213,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-02-21",
+    "date": "2025-03-12",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -882,34 +1223,27 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the First week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint Peter Damian, bishop and doctor of the Church"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-02-22",
+    "date": "2025-03-13",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
       {
-        "title": "Feast",
-        "colour": "white",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Chair of Saint Peter, apostle"
+        "title": "Thursday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": "of the First week of Lent"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-02-23",
+    "date": "2025-03-14",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -919,19 +1253,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the First week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint Polycarp, bishop and martyr"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-02-24",
+    "date": "2025-03-15",
     "season": "Lent",
     "season_week": 1,
     "celebrations": [
@@ -946,7 +1273,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-02-25",
+    "date": "2025-03-16",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -961,7 +1288,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-02-26",
+    "date": "2025-03-17",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -971,12 +1298,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Second week of Lent"
+      },
+      {
+        "title": "Commemoration",
+        "colour": "violet",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saint Patrick, bishop"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-02-27",
+    "date": "2025-03-18",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -992,28 +1326,28 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "violet",
         "rank": "commemoration",
         "rank_num": 4,
-        "subtitle": "of Saint Gregory of Narek, abbot and doctor of the Church"
+        "subtitle": "of Saint Cyril of Jerusalem, bishop and doctor"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-02-28",
+    "date": "2025-03-19",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
       {
-        "title": "Wednesday",
-        "colour": "violet",
-        "rank": "ferial",
-        "rank_num": 2.9,
-        "subtitle": "of the Second week of Lent"
+        "title": "Solemnity",
+        "colour": "white",
+        "rank": "solemnity",
+        "rank_num": 1.3,
+        "subtitle": "of Saint Joseph Husband of the Blessed Virgin Mary"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-02-29",
+    "date": "2025-03-20",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -1028,7 +1362,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-03-01",
+    "date": "2025-03-21",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -1043,7 +1377,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-03-02",
+    "date": "2025-03-22",
     "season": "Lent",
     "season_week": 2,
     "celebrations": [
@@ -1058,7 +1392,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-03-03",
+    "date": "2025-03-23",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1073,7 +1407,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-03-04",
+    "date": "2025-03-24",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1083,34 +1417,27 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Third week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint Casimir"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-03-05",
+    "date": "2025-03-25",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
       {
-        "title": "Tuesday",
-        "colour": "violet",
-        "rank": "ferial",
-        "rank_num": 2.9,
-        "subtitle": "of the Third week of Lent"
+        "title": "Solemnity",
+        "colour": "white",
+        "rank": "solemnity",
+        "rank_num": 1.3,
+        "subtitle": "of Annunciation of the Lord"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-03-06",
+    "date": "2025-03-26",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1125,7 +1452,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-03-07",
+    "date": "2025-03-27",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1135,19 +1462,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Third week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saints Perpetua and Felicity, martyrs"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-03-08",
+    "date": "2025-03-28",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1157,19 +1477,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Third week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint John of God, religious"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-03-09",
+    "date": "2025-03-29",
     "season": "Lent",
     "season_week": 3,
     "celebrations": [
@@ -1179,19 +1492,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Third week of Lent"
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint Frances of Rome, religious"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-03-10",
+    "date": "2025-03-30",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1206,7 +1512,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-03-11",
+    "date": "2025-03-31",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1221,7 +1527,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-03-12",
+    "date": "2025-04-01",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1236,7 +1542,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-03-13",
+    "date": "2025-04-02",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1246,12 +1552,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Fourth week of Lent"
+      },
+      {
+        "title": "Commemoration",
+        "colour": "violet",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saint Francis of Paola, hermit"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-03-14",
+    "date": "2025-04-03",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1266,7 +1579,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-03-15",
+    "date": "2025-04-04",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1276,12 +1589,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Fourth week of Lent"
+      },
+      {
+        "title": "Commemoration",
+        "colour": "violet",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saint Isidore, bishop and doctor of the Church"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-03-16",
+    "date": "2025-04-05",
     "season": "Lent",
     "season_week": 4,
     "celebrations": [
@@ -1291,12 +1611,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 2.9,
         "subtitle": "of the Fourth week of Lent"
+      },
+      {
+        "title": "Commemoration",
+        "colour": "violet",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saint Vincent Ferrer, priest"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-03-17",
+    "date": "2025-04-06",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
@@ -1311,7 +1638,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-03-18",
+    "date": "2025-04-07",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
@@ -1327,28 +1654,28 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "violet",
         "rank": "commemoration",
         "rank_num": 4,
-        "subtitle": "of Saint Cyril of Jerusalem, bishop and doctor"
+        "subtitle": "of Saint John Baptist de la Salle, priest"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-03-19",
+    "date": "2025-04-08",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
       {
-        "title": "Solemnity",
-        "colour": "white",
-        "rank": "solemnity",
-        "rank_num": 1.3,
-        "subtitle": "of Saint Joseph Husband of the Blessed Virgin Mary"
+        "title": "Tuesday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": "of the Fifth week of Lent"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-03-20",
+    "date": "2025-04-09",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
@@ -1363,7 +1690,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-03-21",
+    "date": "2025-04-10",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
@@ -1378,27 +1705,12 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-03-22",
+    "date": "2025-04-11",
     "season": "Lent",
     "season_week": 5,
     "celebrations": [
       {
         "title": "Friday",
-        "colour": "violet",
-        "rank": "ferial",
-        "rank_num": 2.9,
-        "subtitle": "of the Fifth week of Lent"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-03-23",
-    "season": "Lent",
-    "season_week": 5,
-    "celebrations": [
-      {
-        "title": "Saturday",
         "colour": "violet",
         "rank": "ferial",
         "rank_num": 2.9,
@@ -1409,13 +1721,28 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "violet",
         "rank": "commemoration",
         "rank_num": 4,
-        "subtitle": "of Saint Turibius of Mogrovejo, bishop"
+        "subtitle": "of Saint Stanislaus, bishop and martyr"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-04-12",
+    "season": "Lent",
+    "season_week": 5,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": "of the Fifth week of Lent"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-03-24",
+    "date": "2025-04-13",
     "season": "Lent",
     "season_week": 6,
     "celebrations": [
@@ -1430,7 +1757,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-03-25",
+    "date": "2025-04-14",
     "season": "Lent",
     "season_week": 6,
     "celebrations": [
@@ -1445,7 +1772,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-03-26",
+    "date": "2025-04-15",
     "season": "Lent",
     "season_week": 6,
     "celebrations": [
@@ -1460,7 +1787,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-03-27",
+    "date": "2025-04-16",
     "season": "Lent",
     "season_week": 6,
     "celebrations": [
@@ -1475,7 +1802,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-03-28",
+    "date": "2025-04-17",
     "season": "Lent",
     "season_week": 6,
     "celebrations": [
@@ -1490,7 +1817,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-03-29",
+    "date": "2025-04-18",
     "season": "Triduum",
     "season_week": 0,
     "celebrations": [
@@ -1505,7 +1832,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-03-30",
+    "date": "2025-04-19",
     "season": "Triduum",
     "season_week": 0,
     "celebrations": [
@@ -1520,7 +1847,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-03-31",
+    "date": "2025-04-20",
     "season": "Triduum",
     "season_week": 1,
     "celebrations": [
@@ -1535,7 +1862,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-04-01",
+    "date": "2025-04-21",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1550,7 +1877,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-04-02",
+    "date": "2025-04-22",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1565,7 +1892,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-04-03",
+    "date": "2025-04-23",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1580,7 +1907,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-04-04",
+    "date": "2025-04-24",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1595,7 +1922,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-04-05",
+    "date": "2025-04-25",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1610,7 +1937,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-04-06",
+    "date": "2025-04-26",
     "season": "Easter",
     "season_week": 1,
     "celebrations": [
@@ -1625,7 +1952,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-04-07",
+    "date": "2025-04-27",
     "season": "Easter",
     "season_week": 2,
     "celebrations": [
@@ -1640,87 +1967,12 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-04-08",
+    "date": "2025-04-28",
     "season": "Easter",
     "season_week": 2,
     "celebrations": [
       {
-        "title": "Solemnity",
-        "colour": "white",
-        "rank": "solemnity",
-        "rank_num": 1.3,
-        "subtitle": "of Annunciation of the Lord"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-04-09",
-    "season": "Easter",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week of Easter"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-04-10",
-    "season": "Easter",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week of Easter"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-04-11",
-    "season": "Easter",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Stanislaus, bishop and martyr"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-04-12",
-    "season": "Easter",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Friday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Second week of Easter"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-04-13",
-    "season": "Easter",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Saturday",
+        "title": "Monday",
         "colour": "white",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -1731,13 +1983,109 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "red",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Martin I, pope and martyr"
+        "subtitle": "of Saint Peter Chanel, priest and martyr"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Louis Grignon de Montfort, priest"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-04-29",
+    "season": "Easter",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Catherine of Siena, virgin and doctor of the Church"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-04-30",
+    "season": "Easter",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Second week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Pius V, pope"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-05-01",
+    "season": "Easter",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Second week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Joseph the Worker"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-05-02",
+    "season": "Easter",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Athanasius, bishop and doctor"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-05-03",
+    "season": "Easter",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Feast",
+        "colour": "red",
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of Saints Philip and James, Apostles"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-04-14",
+    "date": "2025-05-04",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1752,7 +2100,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-04-15",
+    "date": "2025-05-05",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1767,7 +2115,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-04-16",
+    "date": "2025-05-06",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1782,7 +2130,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-04-17",
+    "date": "2025-05-07",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1797,7 +2145,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-04-18",
+    "date": "2025-05-08",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1812,7 +2160,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-04-19",
+    "date": "2025-05-09",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1827,7 +2175,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-04-20",
+    "date": "2025-05-10",
     "season": "Easter",
     "season_week": 3,
     "celebrations": [
@@ -1837,12 +2185,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Third week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint John De Avila, Priest and Doctor of the Church"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-04-21",
+    "date": "2025-05-11",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1857,7 +2212,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-04-22",
+    "date": "2025-05-12",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1867,12 +2222,26 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Fourth week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "red",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saints Nereus and Achilleus, martyrs"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "red",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Pancras, martyr"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-04-23",
+    "date": "2025-05-13",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1885,45 +2254,16 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "red",
+        "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint George, martyr"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Adalbert, bishop and martyr"
+        "subtitle": "of Our Lady of Fatima"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-04-24",
-    "season": "Easter",
-    "season_week": 4,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fourth week of Easter"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Fidelis of Sigmaringen, priest and martyr"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-04-25",
+    "date": "2025-05-14",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1932,13 +2272,28 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "red",
         "rank": "feast",
         "rank_num": 2.7,
-        "subtitle": "of Saint Mark the Evangelist"
+        "subtitle": "of Saint Matthias the Apostle"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-05-15",
+    "season": "Easter",
+    "season_week": 4,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fourth week of Easter"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-04-26",
+    "date": "2025-05-16",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1953,7 +2308,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-04-27",
+    "date": "2025-05-17",
     "season": "Easter",
     "season_week": 4,
     "celebrations": [
@@ -1968,7 +2323,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-04-28",
+    "date": "2025-05-18",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
@@ -1983,22 +2338,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-04-29",
+    "date": "2025-05-19",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
       {
-        "title": "Memorial",
+        "title": "Monday",
         "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Catherine of Siena, virgin and doctor of the Church"
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week of Easter"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-04-30",
+    "date": "2025-05-20",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
@@ -2014,13 +2369,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Pius V, pope"
+        "subtitle": "of Saint Bernardine of Siena, priest"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-05-01",
+    "date": "2025-05-21",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
@@ -2033,46 +2388,53 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "white",
+        "colour": "red",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Joseph the Worker"
+        "subtitle": "of Saint Christopher Magallanes and companions, martyrs"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-05-02",
+    "date": "2025-05-22",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
       {
-        "title": "Memorial",
+        "title": "Thursday",
         "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Athanasius, bishop and doctor"
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Rita of Cascia"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-05-03",
+    "date": "2025-05-23",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
       {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saints Philip and James, Apostles"
+        "title": "Friday",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifth week of Easter"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-05-04",
+    "date": "2025-05-24",
     "season": "Easter",
     "season_week": 5,
     "celebrations": [
@@ -2087,7 +2449,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-05-05",
+    "date": "2025-05-25",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
@@ -2102,22 +2464,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-05-06",
+    "date": "2025-05-26",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Memorial",
         "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Sixth week of Easter"
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Philip Neri, priest"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-05-07",
+    "date": "2025-05-27",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
@@ -2127,12 +2489,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Sixth week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Augustine (Austin) of Canterbury, bishop"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-05-08",
+    "date": "2025-05-28",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
@@ -2147,7 +2516,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-05-09",
+    "date": "2025-05-29",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
@@ -2162,7 +2531,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-05-10",
+    "date": "2025-05-30",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
@@ -2172,34 +2541,27 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Sixth week of Easter"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint John De Avila, Priest and Doctor of the Church"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-05-11",
+    "date": "2025-05-31",
     "season": "Easter",
     "season_week": 6,
     "celebrations": [
       {
-        "title": "Saturday",
+        "title": "Feast",
         "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Sixth week of Easter"
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of Visitation of the Blessed Virgin Mary"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-05-12",
+    "date": "2025-06-01",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
@@ -2214,7 +2576,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-05-13",
+    "date": "2025-06-02",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
@@ -2227,31 +2589,31 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "white",
+        "colour": "red",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Our Lady of Fatima"
+        "subtitle": "of Saints Marcellinus and Peter, martyrs"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-05-14",
+    "date": "2025-06-03",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
       {
-        "title": "Feast",
+        "title": "Memorial",
         "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saint Matthias the Apostle"
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saints Charles Lwanga and companions, martyrs"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-05-15",
+    "date": "2025-06-04",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
@@ -2266,22 +2628,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-05-16",
+    "date": "2025-06-05",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
       {
-        "title": "Thursday",
-        "colour": "white",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Seventh week of Easter"
+        "title": "Memorial",
+        "colour": "red",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Boniface, bishop and martyr"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-05-17",
+    "date": "2025-06-06",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
@@ -2291,12 +2653,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Seventh week of Easter"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Norbert, bishop"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-05-18",
+    "date": "2025-06-07",
     "season": "Easter",
     "season_week": 7,
     "celebrations": [
@@ -2306,19 +2675,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Seventh week of Easter"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint John I, pope and martyr"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-05-19",
+    "date": "2025-06-08",
     "season": "Easter",
     "season_week": 8,
     "celebrations": [
@@ -2333,9 +2695,9 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-05-20",
+    "date": "2025-06-09",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
         "title": "Memorial",
@@ -2348,111 +2710,76 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-05-21",
+    "date": "2025-06-10",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
         "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Seventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Christopher Magallanes and companions, martyrs"
+        "subtitle": "of the Tenth week in Ordinary Time"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-05-22",
+    "date": "2025-06-11",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Seventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Rita of Cascia"
+        "title": "Memorial",
+        "colour": "red",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Barnabas the Apostle"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-05-23",
+    "date": "2025-06-12",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
         "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Seventh week in Ordinary Time"
+        "subtitle": "of the Tenth week in Ordinary Time"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-05-24",
+    "date": "2025-06-13",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Seventh week in Ordinary Time"
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Anthony of Padua, priest and doctor"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-05-25",
+    "date": "2025-06-14",
     "season": "Ordinary",
-    "season_week": 7,
+    "season_week": 10,
     "celebrations": [
       {
         "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Seventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Bede the Venerable, priest and doctor"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Gregory VII, pope"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Mary Magdalene de Pazzi, virgin"
+        "subtitle": "of the Tenth week in Ordinary Time"
       },
       {
         "title": "Optional memorial",
@@ -2465,9 +2792,9 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-05-26",
+    "date": "2025-06-15",
     "season": "Ordinary",
-    "season_week": 8,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Solemnity",
@@ -2480,68 +2807,54 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-05-27",
+    "date": "2025-06-16",
     "season": "Ordinary",
-    "season_week": 8,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Monday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Eighth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Augustine (Austin) of Canterbury, bishop"
+        "subtitle": "of the Eleventh week in Ordinary Time"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-05-28",
+    "date": "2025-06-17",
     "season": "Ordinary",
-    "season_week": 8,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Eighth week in Ordinary Time"
+        "subtitle": "of the Eleventh week in Ordinary Time"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-05-29",
+    "date": "2025-06-18",
     "season": "Ordinary",
-    "season_week": 8,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Eighth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Paul VI, pope"
+        "subtitle": "of the Eleventh week in Ordinary Time"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-05-30",
+    "date": "2025-06-19",
     "season": "Ordinary",
-    "season_week": 8,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Solemnity",
@@ -2554,343 +2867,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-05-31",
+    "date": "2025-06-20",
     "season": "Ordinary",
-    "season_week": 8,
-    "celebrations": [
-      {
-        "title": "Feast",
-        "colour": "white",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Visitation of the Blessed Virgin Mary"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-06-01",
-    "season": "Ordinary",
-    "season_week": 8,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Justin Martyr"
-      }
-    ],
-    "weekday": "Saturday"
-  },
-  {
-    "date": "2024-06-02",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Ninth Week in Ordinary Time"
-      }
-    ],
-    "weekday": "Sunday"
-  },
-  {
-    "date": "2024-06-03",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saints Charles Lwanga and companions, martyrs"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-06-04",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Ninth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-06-05",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Boniface, bishop and martyr"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-06-06",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Ninth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Norbert, bishop"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-06-07",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Solemnity",
-        "colour": "white",
-        "rank": "solemnity",
-        "rank_num": 1.3,
-        "subtitle": "of The Sacred Heart of Jesus"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-06-08",
-    "season": "Ordinary",
-    "season_week": 9,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of The Immaculate Heart of Mary"
-      }
-    ],
-    "weekday": "Saturday"
-  },
-  {
-    "date": "2024-06-09",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Tenth Week in Ordinary Time"
-      }
-    ],
-    "weekday": "Sunday"
-  },
-  {
-    "date": "2024-06-10",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Monday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Tenth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-06-11",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Barnabas the Apostle"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-06-12",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Tenth week in Ordinary Time"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-06-13",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Anthony of Padua, priest and doctor"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-06-14",
-    "season": "Ordinary",
-    "season_week": 10,
+    "season_week": 11,
     "celebrations": [
       {
         "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
-        "subtitle": "of the Tenth week in Ordinary Time"
+        "subtitle": "of the Eleventh week in Ordinary Time"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-06-15",
-    "season": "Ordinary",
-    "season_week": 10,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Tenth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
-    "weekday": "Saturday"
-  },
-  {
-    "date": "2024-06-16",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Eleventh Week in Ordinary Time"
-      }
-    ],
-    "weekday": "Sunday"
-  },
-  {
-    "date": "2024-06-17",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Monday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Eleventh week in Ordinary Time"
-      }
-    ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-06-18",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Eleventh week in Ordinary Time"
-      }
-    ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-06-19",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Eleventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Romuald, abbot"
-      }
-    ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-06-20",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Eleventh week in Ordinary Time"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-06-21",
+    "date": "2025-06-21",
     "season": "Ordinary",
     "season_week": 11,
     "celebrations": [
@@ -2902,46 +2894,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Aloysius Gonzaga, religious"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-06-22",
-    "season": "Ordinary",
-    "season_week": 11,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Eleventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Paulinus of Nola, bishop"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saints John Fisher, bishop and martyr and Thomas More, martyr"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-06-23",
+    "date": "2025-06-22",
     "season": "Ordinary",
     "season_week": 12,
     "celebrations": [
@@ -2956,7 +2912,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-06-24",
+    "date": "2025-06-23",
+    "season": "Ordinary",
+    "season_week": 12,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twelfth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-06-24",
     "season": "Ordinary",
     "season_week": 12,
     "celebrations": [
@@ -2968,25 +2939,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Birth of Saint John the Baptist"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-06-25",
-    "season": "Ordinary",
-    "season_week": 12,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twelfth week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-06-26",
+    "date": "2025-06-25",
     "season": "Ordinary",
     "season_week": 12,
     "celebrations": [
@@ -3001,12 +2957,42 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-06-27",
+    "date": "2025-06-26",
     "season": "Ordinary",
     "season_week": 12,
     "celebrations": [
       {
         "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twelfth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-06-27",
+    "season": "Ordinary",
+    "season_week": 12,
+    "celebrations": [
+      {
+        "title": "Solemnity",
+        "colour": "white",
+        "rank": "solemnity",
+        "rank_num": 1.3,
+        "subtitle": "of The Sacred Heart of Jesus"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-06-28",
+    "season": "Ordinary",
+    "season_week": 12,
+    "celebrations": [
+      {
+        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3017,30 +3003,22 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Cyril of Alexandria, bishop and doctor"
-      }
-    ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-06-28",
-    "season": "Ordinary",
-    "season_week": 12,
-    "celebrations": [
+        "subtitle": "of The Immaculate Heart of Mary"
+      },
       {
-        "title": "Memorial",
+        "title": "Optional memorial",
         "colour": "red",
-        "rank": "memorial",
-        "rank_num": 3.1,
+        "rank": "optional memorial",
+        "rank_num": 3.12,
         "subtitle": "of Saint Irenaeus, bishop and martyr"
       }
     ],
-    "weekday": "Friday"
+    "weekday": "Saturday"
   },
   {
-    "date": "2024-06-29",
+    "date": "2025-06-29",
     "season": "Ordinary",
-    "season_week": 12,
+    "season_week": 13,
     "celebrations": [
       {
         "title": "Solemnity",
@@ -3050,25 +3028,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Peter and Paul, Apostles"
       }
     ],
-    "weekday": "Saturday"
-  },
-  {
-    "date": "2024-06-30",
-    "season": "Ordinary",
-    "season_week": 13,
-    "celebrations": [
-      {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Thirteenth Week in Ordinary Time"
-      }
-    ],
     "weekday": "Sunday"
   },
   {
-    "date": "2024-07-01",
+    "date": "2025-06-30",
     "season": "Ordinary",
     "season_week": 13,
     "celebrations": [
@@ -3078,12 +3041,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Thirteenth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "red",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of First Martyrs of the Church of Rome"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-07-02",
+    "date": "2025-07-01",
     "season": "Ordinary",
     "season_week": 13,
     "celebrations": [
@@ -3098,7 +3068,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-07-03",
+    "date": "2025-07-02",
+    "season": "Ordinary",
+    "season_week": 13,
+    "celebrations": [
+      {
+        "title": "Wednesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirteenth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Wednesday"
+  },
+  {
+    "date": "2025-07-03",
     "season": "Ordinary",
     "season_week": 13,
     "celebrations": [
@@ -3110,32 +3095,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Thomas the Apostle"
       }
     ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-07-04",
-    "season": "Ordinary",
-    "season_week": 13,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirteenth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Elizabeth of Portugal"
-      }
-    ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-07-05",
+    "date": "2025-07-04",
     "season": "Ordinary",
     "season_week": 13,
     "celebrations": [
@@ -3151,13 +3114,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Anthony Zaccaria, priest"
+        "subtitle": "of Saint Elizabeth of Portugal"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-07-06",
+    "date": "2025-07-05",
     "season": "Ordinary",
     "season_week": 13,
     "celebrations": [
@@ -3170,10 +3133,10 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "red",
+        "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Maria Goretti, virgin and martyr"
+        "subtitle": "of Saint Anthony Zaccaria, priest"
       },
       {
         "title": "Optional memorial",
@@ -3186,7 +3149,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-07-07",
+    "date": "2025-07-06",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
@@ -3201,7 +3164,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-07-08",
+    "date": "2025-07-07",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
@@ -3216,12 +3179,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-07-09",
+    "date": "2025-07-08",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
       {
         "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fourteenth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-07-09",
+    "season": "Ordinary",
+    "season_week": 14,
+    "celebrations": [
+      {
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3235,25 +3213,25 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Augustine Zhao Rong and companions, martyrs"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-07-10",
+    "date": "2025-07-10",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Fourteenth week in Ordinary Time"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-07-11",
+    "date": "2025-07-11",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
@@ -3265,25 +3243,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Benedict, abbot"
       }
     ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-07-12",
-    "season": "Ordinary",
-    "season_week": 14,
-    "celebrations": [
-      {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fourteenth week in Ordinary Time"
-      }
-    ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-07-13",
+    "date": "2025-07-12",
     "season": "Ordinary",
     "season_week": 14,
     "celebrations": [
@@ -3299,20 +3262,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Henry"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
         "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-07-14",
+    "date": "2025-07-13",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
@@ -3327,7 +3283,29 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-07-15",
+    "date": "2025-07-14",
+    "season": "Ordinary",
+    "season_week": 15,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Fifteenth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Camillus de Lellis, priest"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-07-15",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
@@ -3339,15 +3317,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Bonaventure, bishop and doctor"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-07-16",
+    "date": "2025-07-16",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3361,25 +3339,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Our Lady of Mount Carmel"
       }
     ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-07-17",
-    "season": "Ordinary",
-    "season_week": 15,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Fifteenth week in Ordinary Time"
-      }
-    ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-07-18",
+    "date": "2025-07-17",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
@@ -3394,7 +3357,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-07-19",
+    "date": "2025-07-18",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
@@ -3409,7 +3372,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-07-20",
+    "date": "2025-07-19",
     "season": "Ordinary",
     "season_week": 15,
     "celebrations": [
@@ -3422,13 +3385,6 @@ export const Data_2024: LiturgicalDay[] =  [
       },
       {
         "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Apollinaris, bishop and martyr"
-      },
-      {
-        "title": "Optional memorial",
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
@@ -3438,7 +3394,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-07-21",
+    "date": "2025-07-20",
     "season": "Ordinary",
     "season_week": 16,
     "celebrations": [
@@ -3453,7 +3409,29 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-07-22",
+    "date": "2025-07-21",
+    "season": "Ordinary",
+    "season_week": 16,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Sixteenth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Lawrence of Brindisi, priest and doctor"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-07-22",
     "season": "Ordinary",
     "season_week": 16,
     "celebrations": [
@@ -3465,32 +3443,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Mary Magdalene"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-07-23",
-    "season": "Ordinary",
-    "season_week": 16,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Sixteenth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Birgitta, religious"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-07-24",
+    "date": "2025-07-23",
     "season": "Ordinary",
     "season_week": 16,
     "celebrations": [
@@ -3506,13 +3462,35 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Sharbel Makhluf, hermit"
+        "subtitle": "of Saint Birgitta, religious"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-07-25",
+    "date": "2025-07-24",
+    "season": "Ordinary",
+    "season_week": 16,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Sixteenth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Sharbel Makhluf, hermit"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-07-25",
     "season": "Ordinary",
     "season_week": 16,
     "celebrations": [
@@ -3524,10 +3502,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint James, apostle"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-07-26",
+    "date": "2025-07-26",
     "season": "Ordinary",
     "season_week": 16,
     "celebrations": [
@@ -3539,32 +3517,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Joachim and Anne"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-07-27",
-    "season": "Ordinary",
-    "season_week": 16,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Sixteenth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-07-28",
+    "date": "2025-07-27",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
@@ -3579,7 +3535,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-07-29",
+    "date": "2025-07-28",
+    "season": "Ordinary",
+    "season_week": 17,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Seventeenth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-07-29",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
@@ -3591,15 +3562,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Martha, Mary and Lazarus"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-07-30",
+    "date": "2025-07-30",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3613,10 +3584,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Peter Chrysologus, bishop and doctor"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-07-31",
+    "date": "2025-07-31",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
@@ -3628,10 +3599,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Ignatius of Loyola, priest"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-08-01",
+    "date": "2025-08-01",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
@@ -3643,15 +3614,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Alphonsus Maria de Liguori, bishop and doctor of the Church"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-08-02",
+    "date": "2025-08-02",
     "season": "Ordinary",
     "season_week": 17,
     "celebrations": [
       {
-        "title": "Friday",
+        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3670,21 +3641,6 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Peter Julian Eymard, priest"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-08-03",
-    "season": "Ordinary",
-    "season_week": 17,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Seventeenth week in Ordinary Time"
       },
       {
         "title": "Optional memorial",
@@ -3697,7 +3653,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-08-04",
+    "date": "2025-08-03",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
@@ -3712,12 +3668,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-08-05",
+    "date": "2025-08-04",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Jean Vianney (the Curé of Ars), priest"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-08-05",
+    "season": "Ordinary",
+    "season_week": 18,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3731,10 +3702,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Dedication of the Basilica of Saint Mary Major"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-08-06",
+    "date": "2025-08-06",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
@@ -3746,15 +3717,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Transfiguration of the Lord"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-08-07",
+    "date": "2025-08-07",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3775,10 +3746,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Cajetan, priest"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-08-08",
+    "date": "2025-08-08",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
@@ -3790,15 +3761,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Dominic, priest"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-08-09",
+    "date": "2025-08-09",
     "season": "Ordinary",
     "season_week": 18,
     "celebrations": [
       {
-        "title": "Friday",
+        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3810,27 +3781,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-08-10",
-    "season": "Ordinary",
-    "season_week": 18,
-    "celebrations": [
+      },
       {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saint Lawrence, deacon and martyr"
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-08-11",
+    "date": "2025-08-10",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
@@ -3845,12 +3808,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-08-12",
+    "date": "2025-08-11",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Clare, virgin"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-08-12",
+    "season": "Ordinary",
+    "season_week": 19,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3864,15 +3842,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Jane Frances de Chantal, religious"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-08-13",
+    "date": "2025-08-13",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3886,10 +3864,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Pontian, pope, and Hippolytus, priest, martyrs"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-08-14",
+    "date": "2025-08-14",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
@@ -3901,10 +3879,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Maximilian Mary Kolbe, priest and martyr"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-08-15",
+    "date": "2025-08-15",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
@@ -3916,32 +3894,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Assumption of the Blessed Virgin Mary"
       }
     ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-08-16",
-    "season": "Ordinary",
-    "season_week": 19,
-    "celebrations": [
-      {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Nineteenth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Stephen of Hungary"
-      }
-    ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-08-17",
+    "date": "2025-08-16",
     "season": "Ordinary",
     "season_week": 19,
     "celebrations": [
@@ -3957,13 +3913,20 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
+        "subtitle": "of Saint Stephen of Hungary"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
         "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-08-18",
+    "date": "2025-08-17",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
@@ -3978,12 +3941,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-08-19",
+    "date": "2025-08-18",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
       {
         "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twentieth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-08-19",
+    "season": "Ordinary",
+    "season_week": 20,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -3997,10 +3975,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John Eudes, priest"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-08-20",
+    "date": "2025-08-20",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
@@ -4012,10 +3990,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Bernard of Clairvaux, abbot and doctor of the Church"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-08-21",
+    "date": "2025-08-21",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
@@ -4027,10 +4005,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Pius X, pope"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-08-22",
+    "date": "2025-08-22",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
@@ -4042,15 +4020,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Queenship of Blessed Virgin Mary"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-08-23",
+    "date": "2025-08-23",
     "season": "Ordinary",
     "season_week": 20,
     "celebrations": [
       {
-        "title": "Friday",
+        "title": "Saturday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4062,27 +4040,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "optional memorial",
         "rank_num": 3.12,
         "subtitle": "of Saint Rose of Lima, virgin"
-      }
-    ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-08-24",
-    "season": "Ordinary",
-    "season_week": 20,
-    "celebrations": [
+      },
       {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saint Bartholomew the Apostle"
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-08-25",
+    "date": "2025-08-24",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4097,7 +4067,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-08-26",
+    "date": "2025-08-25",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4107,12 +4077,41 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-First week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Louis"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Joseph of Calasanz, priest"
       }
     ],
     "weekday": "Monday"
   },
   {
-    "date": "2024-08-27",
+    "date": "2025-08-26",
+    "season": "Ordinary",
+    "season_week": 21,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-First week in Ordinary Time"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-08-27",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4124,10 +4123,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Monica"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-08-28",
+    "date": "2025-08-28",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4139,10 +4138,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Augustine of Hippo, bishop and doctor of the Church"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-08-29",
+    "date": "2025-08-29",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4154,25 +4153,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of The Beheading of Saint John the Baptist, martyr"
       }
     ],
-    "weekday": "Thursday"
-  },
-  {
-    "date": "2024-08-30",
-    "season": "Ordinary",
-    "season_week": 21,
-    "celebrations": [
-      {
-        "title": "Friday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-First week in Ordinary Time"
-      }
-    ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-08-31",
+    "date": "2025-08-30",
     "season": "Ordinary",
     "season_week": 21,
     "celebrations": [
@@ -4194,7 +4178,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-09-01",
+    "date": "2025-08-31",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4209,7 +4193,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-09-02",
+    "date": "2025-09-01",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4224,7 +4208,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-09-03",
+    "date": "2025-09-02",
+    "season": "Ordinary",
+    "season_week": 22,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Second week in Ordinary Time"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-09-03",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4236,25 +4235,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Gregory the Great, pope and doctor"
       }
     ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-09-04",
-    "season": "Ordinary",
-    "season_week": 22,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Second week in Ordinary Time"
-      }
-    ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-09-05",
+    "date": "2025-09-04",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4269,7 +4253,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-09-06",
+    "date": "2025-09-05",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4284,7 +4268,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-09-07",
+    "date": "2025-09-06",
     "season": "Ordinary",
     "season_week": 22,
     "celebrations": [
@@ -4306,7 +4290,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-09-08",
+    "date": "2025-09-07",
     "season": "Ordinary",
     "season_week": 23,
     "celebrations": [
@@ -4321,12 +4305,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-09-09",
+    "date": "2025-09-08",
     "season": "Ordinary",
     "season_week": 23,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Feast",
+        "colour": "white",
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of Birth of the Blessed Virgin Mary"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-09-09",
+    "season": "Ordinary",
+    "season_week": 23,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4340,25 +4339,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Peter Claver, priest"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-09-10",
-    "season": "Ordinary",
-    "season_week": 23,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Third week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-09-11",
+    "date": "2025-09-10",
     "season": "Ordinary",
     "season_week": 23,
     "celebrations": [
@@ -4373,12 +4357,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-09-12",
+    "date": "2025-09-11",
     "season": "Ordinary",
     "season_week": 23,
     "celebrations": [
       {
         "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Third week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-09-12",
+    "season": "Ordinary",
+    "season_week": 23,
+    "celebrations": [
+      {
+        "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4392,10 +4391,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Holy Name of the Blessed Virgin Mary"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-09-13",
+    "date": "2025-09-13",
     "season": "Ordinary",
     "season_week": 23,
     "celebrations": [
@@ -4407,12 +4406,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John Chrysostom, bishop and doctor"
       }
     ],
-    "weekday": "Friday"
+    "weekday": "Saturday"
   },
   {
-    "date": "2024-09-14",
+    "date": "2025-09-14",
     "season": "Ordinary",
-    "season_week": 23,
+    "season_week": 24,
     "celebrations": [
       {
         "title": "Feast",
@@ -4422,25 +4421,25 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Triumph of the Holy Cross"
       }
     ],
-    "weekday": "Saturday"
+    "weekday": "Sunday"
   },
   {
-    "date": "2024-09-15",
+    "date": "2025-09-15",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
       {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Twenty-Fourth Week in Ordinary Time"
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Our Lady of Sorrows"
       }
     ],
-    "weekday": "Sunday"
+    "weekday": "Monday"
   },
   {
-    "date": "2024-09-16",
+    "date": "2025-09-16",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
@@ -4452,15 +4451,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Cornelius, pope, and Cyprian, bishop, martyrs"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-09-17",
+    "date": "2025-09-17",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4481,30 +4480,30 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Hildegard of Bingen, Virgin and Doctor of the Church"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-09-18",
+    "date": "2025-09-18",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Fourth week in Ordinary Time"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-09-19",
+    "date": "2025-09-19",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
       {
-        "title": "Thursday",
+        "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4518,10 +4517,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Januarius, bishop and martyr"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-09-20",
+    "date": "2025-09-20",
     "season": "Ordinary",
     "season_week": 24,
     "celebrations": [
@@ -4533,25 +4532,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Andrew Kim Taegon, priest, and Paul Chong Hasang and companions, martyrs"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-09-21",
-    "season": "Ordinary",
-    "season_week": 24,
-    "celebrations": [
-      {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saint Matthew the Evangelist, Apostle, Evangelist"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-09-22",
+    "date": "2025-09-21",
     "season": "Ordinary",
     "season_week": 25,
     "celebrations": [
@@ -4566,7 +4550,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-09-23",
+    "date": "2025-09-22",
+    "season": "Ordinary",
+    "season_week": 25,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Fifth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-09-23",
     "season": "Ordinary",
     "season_week": 25,
     "celebrations": [
@@ -4578,25 +4577,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Pio of Pietrelcina (Padre Pio), priest"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-09-24",
-    "season": "Ordinary",
-    "season_week": 25,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Fifth week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-09-25",
+    "date": "2025-09-24",
     "season": "Ordinary",
     "season_week": 25,
     "celebrations": [
@@ -4611,12 +4595,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-09-26",
+    "date": "2025-09-25",
     "season": "Ordinary",
     "season_week": 25,
     "celebrations": [
       {
         "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Fifth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-09-26",
+    "season": "Ordinary",
+    "season_week": 25,
+    "celebrations": [
+      {
+        "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4630,10 +4629,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saints Cosmas and Damian, martyrs"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-09-27",
+    "date": "2025-09-27",
     "season": "Ordinary",
     "season_week": 25,
     "celebrations": [
@@ -4645,46 +4644,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Vincent de Paul, priest"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-09-28",
-    "season": "Ordinary",
-    "season_week": 25,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Fifth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Wenceslaus, martyr"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saints Lawrence Ruiz and companions, martyrs"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-09-29",
+    "date": "2025-09-28",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
@@ -4699,7 +4662,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-09-30",
+    "date": "2025-09-29",
+    "season": "Ordinary",
+    "season_week": 26,
+    "celebrations": [
+      {
+        "title": "Feast",
+        "colour": "white",
+        "rank": "feast",
+        "rank_num": 2.7,
+        "subtitle": "of Saints Michael, Gabriel and Raphael, Archangels"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-09-30",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
@@ -4711,10 +4689,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Jerome, priest and doctor"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-10-01",
+    "date": "2025-10-01",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
@@ -4726,10 +4704,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Thérèse of the Child Jesus, virgin and doctor"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-10-02",
+    "date": "2025-10-02",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
@@ -4741,25 +4719,25 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Guardian Angels"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-10-03",
+    "date": "2025-10-03",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
       {
-        "title": "Thursday",
+        "title": "Friday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Sixth week in Ordinary Time"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-10-04",
+    "date": "2025-10-04",
     "season": "Ordinary",
     "season_week": 26,
     "celebrations": [
@@ -4771,39 +4749,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Francis of Assisi"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-10-05",
-    "season": "Ordinary",
-    "season_week": 26,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Sixth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Faustina Kowalska, virgin"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-10-06",
+    "date": "2025-10-05",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
@@ -4818,7 +4767,29 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-10-07",
+    "date": "2025-10-06",
+    "season": "Ordinary",
+    "season_week": 27,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Seventh week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Bruno, priest"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-10-07",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
@@ -4830,30 +4801,30 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Our Lady of the Rosary"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-10-08",
+    "date": "2025-10-08",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
       {
-        "title": "Tuesday",
+        "title": "Wednesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Seventh week in Ordinary Time"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-10-09",
+    "date": "2025-10-09",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4874,25 +4845,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John Leonardi, priest"
       }
     ],
-    "weekday": "Wednesday"
-  },
-  {
-    "date": "2024-10-10",
-    "season": "Ordinary",
-    "season_week": 27,
-    "celebrations": [
-      {
-        "title": "Thursday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Seventh week in Ordinary Time"
-      }
-    ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-10-11",
+    "date": "2025-10-10",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
@@ -4902,19 +4858,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Seventh week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint John XXIII, pope"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-10-12",
+    "date": "2025-10-11",
     "season": "Ordinary",
     "season_week": 27,
     "celebrations": [
@@ -4930,13 +4879,20 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
+        "subtitle": "of Saint John XXIII, pope"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
         "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-10-13",
+    "date": "2025-10-12",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
@@ -4951,12 +4907,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-10-14",
+    "date": "2025-10-13",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
       {
         "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Twenty-Eighth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-10-14",
+    "season": "Ordinary",
+    "season_week": 28,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -4970,10 +4941,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Callistus I, pope and martyr"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-10-15",
+    "date": "2025-10-15",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
@@ -4985,15 +4956,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Teresa of Jesus, virgin and doctor"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-10-16",
+    "date": "2025-10-16",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -5014,10 +4985,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Margaret Mary Alacoque, virgin"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-10-17",
+    "date": "2025-10-17",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
@@ -5029,10 +5000,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Ignatius of Antioch, bishop and martyr"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-10-18",
+    "date": "2025-10-18",
     "season": "Ordinary",
     "season_week": 28,
     "celebrations": [
@@ -5044,46 +5015,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Luke the Evangelist"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-10-19",
-    "season": "Ordinary",
-    "season_week": 28,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Twenty-Eighth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saints Jean de Brébeuf, Isaac Jogues, priests and martyrs; and their companions, martyrs"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Paul of the Cross, priest"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-10-20",
+    "date": "2025-10-19",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5098,7 +5033,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-10-21",
+    "date": "2025-10-20",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5113,7 +5048,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-10-22",
+    "date": "2025-10-21",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5123,19 +5058,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Ninth week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint John Paul II, pope"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-10-23",
+    "date": "2025-10-22",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5151,13 +5079,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint John of Capistrano, priest"
+        "subtitle": "of Saint John Paul II, pope"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-10-24",
+    "date": "2025-10-23",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5173,13 +5101,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Anthony Mary Claret, bishop"
+        "subtitle": "of Saint John of Capistrano, priest"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-10-25",
+    "date": "2025-10-24",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5189,12 +5117,19 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Twenty-Ninth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Anthony Mary Claret, bishop"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-10-26",
+    "date": "2025-10-25",
     "season": "Ordinary",
     "season_week": 29,
     "celebrations": [
@@ -5216,7 +5151,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-10-27",
+    "date": "2025-10-26",
     "season": "Ordinary",
     "season_week": 30,
     "celebrations": [
@@ -5231,7 +5166,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-10-28",
+    "date": "2025-10-27",
+    "season": "Ordinary",
+    "season_week": 30,
+    "celebrations": [
+      {
+        "title": "Monday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirtieth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-10-28",
     "season": "Ordinary",
     "season_week": 30,
     "celebrations": [
@@ -5243,25 +5193,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Simon and Saint Jude, apostles"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-10-29",
-    "season": "Ordinary",
-    "season_week": 30,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirtieth week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-10-30",
+    "date": "2025-10-29",
     "season": "Ordinary",
     "season_week": 30,
     "celebrations": [
@@ -5276,7 +5211,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-10-31",
+    "date": "2025-10-30",
     "season": "Ordinary",
     "season_week": 30,
     "celebrations": [
@@ -5291,7 +5226,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-11-01",
+    "date": "2025-10-31",
+    "season": "Ordinary",
+    "season_week": 30,
+    "celebrations": [
+      {
+        "title": "Friday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirtieth week in Ordinary Time"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-11-01",
     "season": "Ordinary",
     "season_week": 30,
     "celebrations": [
@@ -5303,12 +5253,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of All Saints"
       }
     ],
-    "weekday": "Friday"
+    "weekday": "Saturday"
   },
   {
-    "date": "2024-11-02",
+    "date": "2025-11-02",
     "season": "Ordinary",
-    "season_week": 30,
+    "season_week": 31,
     "celebrations": [
       {
         "title": "Solemnity",
@@ -5318,25 +5268,32 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of All Souls"
       }
     ],
-    "weekday": "Saturday"
+    "weekday": "Sunday"
   },
   {
-    "date": "2024-11-03",
+    "date": "2025-11-03",
     "season": "Ordinary",
     "season_week": 31,
     "celebrations": [
       {
-        "title": "Sunday",
+        "title": "Monday",
         "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Thirty-First Week in Ordinary Time"
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirty-First week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Saint Martin de Porres, religious"
       }
     ],
-    "weekday": "Sunday"
+    "weekday": "Monday"
   },
   {
-    "date": "2024-11-04",
+    "date": "2025-11-04",
     "season": "Ordinary",
     "season_week": 31,
     "celebrations": [
@@ -5348,25 +5305,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Charles Borromeo, bishop"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-11-05",
-    "season": "Ordinary",
-    "season_week": 31,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirty-First week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-11-06",
+    "date": "2025-11-05",
     "season": "Ordinary",
     "season_week": 31,
     "celebrations": [
@@ -5381,7 +5323,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-11-07",
+    "date": "2025-11-06",
     "season": "Ordinary",
     "season_week": 31,
     "celebrations": [
@@ -5396,7 +5338,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-11-08",
+    "date": "2025-11-07",
     "season": "Ordinary",
     "season_week": 31,
     "celebrations": [
@@ -5411,9 +5353,31 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-11-09",
+    "date": "2025-11-08",
     "season": "Ordinary",
     "season_week": 31,
+    "celebrations": [
+      {
+        "title": "Saturday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirty-First week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
+      }
+    ],
+    "weekday": "Saturday"
+  },
+  {
+    "date": "2025-11-09",
+    "season": "Ordinary",
+    "season_week": 32,
     "celebrations": [
       {
         "title": "Feast",
@@ -5423,25 +5387,25 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Dedication of the Lateran basilica"
       }
     ],
-    "weekday": "Saturday"
+    "weekday": "Sunday"
   },
   {
-    "date": "2024-11-10",
+    "date": "2025-11-10",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
       {
-        "title": "Sunday",
-        "colour": "green",
-        "rank": "Sunday",
-        "rank_num": 2.6,
-        "subtitle": "of the Thirty-Second Week in Ordinary Time"
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Leo the Great, pope and doctor"
       }
     ],
-    "weekday": "Sunday"
+    "weekday": "Monday"
   },
   {
-    "date": "2024-11-11",
+    "date": "2025-11-11",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
@@ -5453,10 +5417,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Martin of Tours, bishop"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-11-12",
+    "date": "2025-11-12",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
@@ -5468,25 +5432,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Josaphat, bishop and martyr"
       }
     ],
-    "weekday": "Tuesday"
-  },
-  {
-    "date": "2024-11-13",
-    "season": "Ordinary",
-    "season_week": 32,
-    "celebrations": [
-      {
-        "title": "Wednesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirty-Second week in Ordinary Time"
-      }
-    ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-11-14",
+    "date": "2025-11-13",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
@@ -5501,7 +5450,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-11-15",
+    "date": "2025-11-14",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
@@ -5511,19 +5460,12 @@ export const Data_2024: LiturgicalDay[] =  [
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the Thirty-Second week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Albert the Great, bishop and doctor"
       }
     ],
     "weekday": "Friday"
   },
   {
-    "date": "2024-11-16",
+    "date": "2025-11-15",
     "season": "Ordinary",
     "season_week": 32,
     "celebrations": [
@@ -5539,14 +5481,7 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Margaret of Scotland"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Gertrude the Great, virgin"
+        "subtitle": "of Saint Albert the Great, bishop and doctor"
       },
       {
         "title": "Optional memorial",
@@ -5559,7 +5494,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Saturday"
   },
   {
-    "date": "2024-11-17",
+    "date": "2025-11-16",
     "season": "Ordinary",
     "season_week": 33,
     "celebrations": [
@@ -5574,12 +5509,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-11-18",
+    "date": "2025-11-17",
     "season": "Ordinary",
     "season_week": 33,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Memorial",
+        "colour": "white",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Elizabeth of Hungary, religious"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-11-18",
+    "season": "Ordinary",
+    "season_week": 33,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -5593,25 +5543,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Dedication of the basilicas of Saints Peter and Paul, Apostles"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-11-19",
-    "season": "Ordinary",
-    "season_week": 33,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirty-Third week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-11-20",
+    "date": "2025-11-19",
     "season": "Ordinary",
     "season_week": 33,
     "celebrations": [
@@ -5626,7 +5561,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-11-21",
+    "date": "2025-11-20",
+    "season": "Ordinary",
+    "season_week": 33,
+    "celebrations": [
+      {
+        "title": "Thursday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirty-Third week in Ordinary Time"
+      }
+    ],
+    "weekday": "Thursday"
+  },
+  {
+    "date": "2025-11-21",
     "season": "Ordinary",
     "season_week": 33,
     "celebrations": [
@@ -5638,10 +5588,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Presentation of the Blessed Virgin Mary"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-11-22",
+    "date": "2025-11-22",
     "season": "Ordinary",
     "season_week": 33,
     "celebrations": [
@@ -5653,46 +5603,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Cecilia, virgin and martyr"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-11-23",
-    "season": "Ordinary",
-    "season_week": 33,
-    "celebrations": [
-      {
-        "title": "Saturday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirty-Third week in Ordinary Time"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "red",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Clement I, pope and martyr"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of Saint Columban, religious"
-      },
-      {
-        "title": "Optional memorial",
-        "colour": "white",
-        "rank": "optional memorial",
-        "rank_num": 3.12,
-        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-11-24",
+    "date": "2025-11-23",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
@@ -5707,12 +5621,27 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-11-25",
+    "date": "2025-11-24",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
       {
-        "title": "Monday",
+        "title": "Memorial",
+        "colour": "red",
+        "rank": "memorial",
+        "rank_num": 3.1,
+        "subtitle": "of Saint Andrew Dung Lac and his companions, martyrs"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-11-25",
+    "season": "Ordinary",
+    "season_week": 34,
+    "celebrations": [
+      {
+        "title": "Tuesday",
         "colour": "green",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -5726,25 +5655,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Catherine of Alexandria"
       }
     ],
-    "weekday": "Monday"
-  },
-  {
-    "date": "2024-11-26",
-    "season": "Ordinary",
-    "season_week": 34,
-    "celebrations": [
-      {
-        "title": "Tuesday",
-        "colour": "green",
-        "rank": "ferial",
-        "rank_num": 3.13,
-        "subtitle": "of the Thirty-Fourth week in Ordinary Time"
-      }
-    ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-11-27",
+    "date": "2025-11-26",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
@@ -5759,7 +5673,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-11-28",
+    "date": "2025-11-27",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
@@ -5774,7 +5688,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Thursday"
   },
   {
-    "date": "2024-11-29",
+    "date": "2025-11-28",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
@@ -5789,22 +5703,29 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Friday"
   },
   {
-    "date": "2024-11-30",
+    "date": "2025-11-29",
     "season": "Ordinary",
     "season_week": 34,
     "celebrations": [
       {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Saint Andrew the Apostle"
+        "title": "Saturday",
+        "colour": "green",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Thirty-Fourth week in Ordinary Time"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of The Memorial of the Blessed Virgin Mary on Saturday"
       }
     ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-12-01",
+    "date": "2025-11-30",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
@@ -5819,7 +5740,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-12-02",
+    "date": "2025-12-01",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
@@ -5834,7 +5755,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-12-03",
+    "date": "2025-12-02",
+    "season": "Advent",
+    "season_week": 1,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the First week of Advent"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-12-03",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
@@ -5846,15 +5782,15 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Francis Xavier, priest"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-12-04",
+    "date": "2025-12-04",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
       {
-        "title": "Wednesday",
+        "title": "Thursday",
         "colour": "violet",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -5868,30 +5804,30 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John Damascene, priest and doctor"
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-12-05",
+    "date": "2025-12-05",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
       {
-        "title": "Thursday",
+        "title": "Friday",
         "colour": "violet",
         "rank": "ferial",
         "rank_num": 3.13,
         "subtitle": "of the First week of Advent"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-12-06",
+    "date": "2025-12-06",
     "season": "Advent",
     "season_week": 1,
     "celebrations": [
       {
-        "title": "Friday",
+        "title": "Saturday",
         "colour": "violet",
         "rank": "ferial",
         "rank_num": 3.13,
@@ -5905,25 +5841,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Nicholas, bishop"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-12-07",
-    "season": "Advent",
-    "season_week": 1,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint Ambrose, bishop and doctor"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-12-08",
+    "date": "2025-12-07",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -5938,7 +5859,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-12-09",
+    "date": "2025-12-08",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -5953,7 +5874,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-12-10",
+    "date": "2025-12-09",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -5969,13 +5890,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Our Lady of Loreto"
+        "subtitle": "of Saint Juan Diego"
       }
     ],
     "weekday": "Tuesday"
   },
   {
-    "date": "2024-12-11",
+    "date": "2025-12-10",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -5991,13 +5912,13 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Saint Damasus I, pope"
+        "subtitle": "of Our Lady of Loreto"
       }
     ],
     "weekday": "Wednesday"
   },
   {
-    "date": "2024-12-12",
+    "date": "2025-12-11",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -6013,13 +5934,35 @@ export const Data_2024: LiturgicalDay[] =  [
         "colour": "white",
         "rank": "optional memorial",
         "rank_num": 3.12,
-        "subtitle": "of Our Lady of Guadalupe"
+        "subtitle": "of Saint Damasus I, pope"
       }
     ],
     "weekday": "Thursday"
   },
   {
-    "date": "2024-12-13",
+    "date": "2025-12-12",
+    "season": "Advent",
+    "season_week": 2,
+    "celebrations": [
+      {
+        "title": "Friday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Second week of Advent"
+      },
+      {
+        "title": "Optional memorial",
+        "colour": "white",
+        "rank": "optional memorial",
+        "rank_num": 3.12,
+        "subtitle": "of Our Lady of Guadalupe"
+      }
+    ],
+    "weekday": "Friday"
+  },
+  {
+    "date": "2025-12-13",
     "season": "Advent",
     "season_week": 2,
     "celebrations": [
@@ -6031,25 +5974,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Lucy of Syracuse, virgin and martyr"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-12-14",
-    "season": "Advent",
-    "season_week": 2,
-    "celebrations": [
-      {
-        "title": "Memorial",
-        "colour": "white",
-        "rank": "memorial",
-        "rank_num": 3.1,
-        "subtitle": "of Saint John of the Cross, priest and doctor"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-12-15",
+    "date": "2025-12-14",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6064,7 +5992,7 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-12-16",
+    "date": "2025-12-15",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6079,7 +6007,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Monday"
   },
   {
-    "date": "2024-12-17",
+    "date": "2025-12-16",
+    "season": "Advent",
+    "season_week": 3,
+    "celebrations": [
+      {
+        "title": "Tuesday",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 3.13,
+        "subtitle": "of the Third week of Advent"
+      }
+    ],
+    "weekday": "Tuesday"
+  },
+  {
+    "date": "2025-12-17",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6091,10 +6034,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-12-18",
+    "date": "2025-12-18",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6106,10 +6049,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-12-19",
+    "date": "2025-12-19",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6121,10 +6064,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-12-20",
+    "date": "2025-12-20",
     "season": "Advent",
     "season_week": 3,
     "celebrations": [
@@ -6136,32 +6079,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-12-21",
-    "season": "Advent",
-    "season_week": 3,
-    "celebrations": [
-      {
-        "title": "Twenty-First December",
-        "colour": "violet",
-        "rank": "ferial",
-        "rank_num": 2.9,
-        "subtitle": ""
-      },
-      {
-        "title": "Commemoration",
-        "colour": "violet",
-        "rank": "commemoration",
-        "rank_num": 4,
-        "subtitle": "of Saint Peter Canisius, priest and doctor"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-12-22",
+    "date": "2025-12-21",
     "season": "Advent",
     "season_week": 4,
     "celebrations": [
@@ -6176,7 +6097,22 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-12-23",
+    "date": "2025-12-22",
+    "season": "Advent",
+    "season_week": 4,
+    "celebrations": [
+      {
+        "title": "Twenty-Second December",
+        "colour": "violet",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": ""
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-12-23",
     "season": "Advent",
     "season_week": 4,
     "celebrations": [
@@ -6195,10 +6131,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John of Kanty, priest"
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-12-24",
+    "date": "2025-12-24",
     "season": "Advent",
     "season_week": 4,
     "celebrations": [
@@ -6210,10 +6146,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   },
   {
-    "date": "2024-12-25",
+    "date": "2025-12-25",
     "season": "Christmas",
     "season_week": 0,
     "celebrations": [
@@ -6225,10 +6161,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Wednesday"
+    "weekday": "Thursday"
   },
   {
-    "date": "2024-12-26",
+    "date": "2025-12-26",
     "season": "Christmas",
     "season_week": 0,
     "celebrations": [
@@ -6240,10 +6176,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Stephen, the first martyr"
       }
     ],
-    "weekday": "Thursday"
+    "weekday": "Friday"
   },
   {
-    "date": "2024-12-27",
+    "date": "2025-12-27",
     "season": "Christmas",
     "season_week": 0,
     "celebrations": [
@@ -6255,25 +6191,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint John the Apostle and evangelist"
       }
     ],
-    "weekday": "Friday"
-  },
-  {
-    "date": "2024-12-28",
-    "season": "Christmas",
-    "season_week": 0,
-    "celebrations": [
-      {
-        "title": "Feast",
-        "colour": "red",
-        "rank": "feast",
-        "rank_num": 2.7,
-        "subtitle": "of Holy Innocents, martyrs"
-      }
-    ],
     "weekday": "Saturday"
   },
   {
-    "date": "2024-12-29",
+    "date": "2025-12-28",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -6288,7 +6209,29 @@ export const Data_2024: LiturgicalDay[] =  [
     "weekday": "Sunday"
   },
   {
-    "date": "2024-12-30",
+    "date": "2025-12-29",
+    "season": "Christmas",
+    "season_week": 1,
+    "celebrations": [
+      {
+        "title": "Fifth day of Christmas Octave",
+        "colour": "white",
+        "rank": "ferial",
+        "rank_num": 2.9,
+        "subtitle": ""
+      },
+      {
+        "title": "Commemoration",
+        "colour": "white",
+        "rank": "commemoration",
+        "rank_num": 4,
+        "subtitle": "of Saint Thomas Becket, bishop and martyr"
+      }
+    ],
+    "weekday": "Monday"
+  },
+  {
+    "date": "2025-12-30",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -6300,10 +6243,10 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": ""
       }
     ],
-    "weekday": "Monday"
+    "weekday": "Tuesday"
   },
   {
-    "date": "2024-12-31",
+    "date": "2025-12-31",
     "season": "Christmas",
     "season_week": 1,
     "celebrations": [
@@ -6322,6 +6265,6 @@ export const Data_2024: LiturgicalDay[] =  [
         "subtitle": "of Saint Sylvester I, pope"
       }
     ],
-    "weekday": "Tuesday"
+    "weekday": "Wednesday"
   }
 ]

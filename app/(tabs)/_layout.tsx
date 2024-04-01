@@ -21,18 +21,15 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
-        // Disable the static render of the header on web
-        // to prevent a hydration error in React Navigation v6.
         headerShown: useClientOnlyValue(false, true),
+        tabBarStyle: {
+          display: "none",
+        },
       }}
     >
       <Tabs.Screen
         name="index"
         options={{
-          title: Calendar.formatDate(date),
-          tabBarStyle: {
-            display: "none",
-          },
           headerTitle: () => {
             return (
               <RNDateTimePicker
@@ -49,7 +46,7 @@ export default function TabLayout() {
               <Pressable>
                 {({ pressed }) => (
                   <FontAwesome
-                    name="question"
+                    name="info"
                     size={25}
                     color={Colors[colorScheme ?? "light"].text}
                     style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
