@@ -1,5 +1,5 @@
 # CathApp
-CathApp is a simple Expo app for the General Roman Liturgical Calendar. It shows all mandatory and optional celebrations for each day with their appropriate color. It also has readings for the previous seven days from [USCCB RSS](https://www.usccb.org/subscribe/rss).
+CathApp is a simple Expo app for the [General Roman Calendar](https://en.wikipedia.org/wiki/General_Roman_Calendar). It shows all mandatory and optional celebrations for each day with their appropriate color. It also has readings for the previous seven days from [USCCB RSS](https://www.usccb.org/subscribe/rss).
 
 The app consumes data exported from [Church Calendar API](https://github.com/igneus/church-calendar-api) for 2023, 2024, and 2025. The app uses pre-compiled data instead of relying on the api directly. Included is a custom [script](https://github.com/HPaulson/CathApp/blob/master/data/transformjson.js) to compile data for any year.
 
