@@ -10,6 +10,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
 
 import { useColorScheme } from "@/components/useColorScheme";
+import TabLayout from "./Home/_layout";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -17,7 +18,7 @@ export {
 } from "expo-router";
 
 export const unstable_settings = {
-  initialRouteName: "Home",
+  initialRouteName: "/Home/",
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -54,7 +55,6 @@ function RootLayoutNav() {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="Home" options={{ headerShown: false }} />
-        <Stack.Screen name="Settings" />
         <Stack.Screen name="Credits" />
       </Stack>
     </ThemeProvider>

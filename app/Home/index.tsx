@@ -9,8 +9,9 @@ import RenderRSS from "@/components/renderRSS";
 import DayIcon from "@/components/icon";
 import { useDate } from "@/state/date";
 import { DarkTheme } from "@react-navigation/native";
+import { registerRootComponent } from "expo";
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   const [liturgicalDay, setLiturgicalDay] = useState<LiturgicalDay | null>(
     null
   );
@@ -76,6 +77,7 @@ export default function TabOneScreen() {
               style={{
                 color: DarkTheme ? "black" : "white",
                 fontSize: 17,
+                flexWrap: "wrap",
               }}
             >
               {liturgicalDay.celebrations[0].subtitle}
@@ -106,8 +108,16 @@ export default function TabOneScreen() {
                     lightColor={Calendar.parseColor(celebration.colour)}
                   />
                   <View style={{ width: "80%" }}>
-                    <Title style={{ fontSize: 20 }}>{celebration.title}</Title>
-                    <Text style={{ width: "auto", fontSize: 15 }}>
+                    <Title style={{ fontSize: 20, width: "90%" }}>
+                      {celebration.title}
+                    </Title>
+                    <Text
+                      style={{
+                        fontSize: 15,
+                        flexWrap: "wrap",
+                        width: "90%",
+                      }}
+                    >
                       {celebration.subtitle}
                     </Text>
                   </View>

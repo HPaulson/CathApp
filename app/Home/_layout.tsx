@@ -57,20 +57,6 @@ export default function TabLayout() {
               </Pressable>
             </Link>
           ),
-          headerLeft: () => (
-            <Link href="/Settings" asChild>
-              <Pressable>
-                {({ pressed }) => (
-                  <FontAwesome
-                    name="gear"
-                    size={25}
-                    color={Colors[colorScheme ?? "light"].text}
-                    style={{ marginLeft: 15, opacity: pressed ? 0.5 : 1 }}
-                  />
-                )}
-              </Pressable>
-            </Link>
-          ),
         }}
       />
     </Tabs>
